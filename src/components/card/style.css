@@ -1,0 +1,47 @@
+.card {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+    max-width: 90%;
+    width: 950px;
+
+    margin-bottom: 20px;
+}
+
+.topo-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 20px;
+    
+}
+
+.texto-card{
+    padding: 0px 20px;
+
+}
+
+button {
+  background-color: #574AEB; /* cor de fundo */
+  border: none; /* remove a borda padrão */
+  color: white; /* cor do texto */
+  padding: 12px 24px; /* espaço interno */
+  text-align: center; /* alinhamento do texto */
+  text-decoration: none; /* remove sublinhado */
+  display: inline-block; /* exibe como bloco */
+  font-size: 16px; /* tamanho da fonte */
+  margin: 10px 0px; /* margem externa */
+  cursor: pointer; /* cursor padrão */
+  border-radius: 5px;
+
+  transition: all 0.3s ease;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+button:hover {
+  box-shadow: 0px 0px 6px #222;
+}
